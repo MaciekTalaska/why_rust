@@ -5,5 +5,5 @@
 ## Thanks!
 
 
-#### Twitter: @MaciekTalaska
+<small>Twitter: @MaciekTalaska</small>
 

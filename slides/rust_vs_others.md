@@ -79,7 +79,7 @@ Go: 2009; Rust: 2015
 
 |   | GO | Rust|
 | --- | --- | --- |
-| vm | yes | no |
+| vm | no(?) | no |
 | type classes/generics | no/yes | yes|
 <br>
 * Golang copes well with huge heaps

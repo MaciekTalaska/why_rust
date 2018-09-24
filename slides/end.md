@@ -1,4 +1,7 @@
 # Q & A
+
+Note:
+Play the demo! :)
 ----
 
 

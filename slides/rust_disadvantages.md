@@ -10,6 +10,7 @@
 
 Note:
 * Rust aims at competing with C++ and is C++ easy to learn?
+* Would you master C++ in a half a year? A year? And Rust?
 ====
 
 
@@ -20,7 +21,8 @@ Note:
 * is it good for solving **business** problems?
 
 Note:
-
+* same as with C++: business apps are not written in C++ anymore
+* for webapps databse/network is bottleneck, you won't get much improvement just from using "fast" language (why is/was YouTube written in Python?)
 ====
 
 
@@ -41,8 +43,12 @@ By default Rust image is pretty big
 (and grows fast)
 
 * static linking of standard library
-* debugging symbols
+* debugging symbols for debug & release 
 * compilator options (Cargo.toml)
+
+Note:
+* you may use strip to get rid of symbols
+* UPX greatly reduces size of Rust binaries (down to ~50%)
 ====
 
 

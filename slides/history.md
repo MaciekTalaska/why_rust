@@ -5,7 +5,7 @@
 ### Rust was born ~12 years ago
 
 * Rust was started in 2006 by Graydon Hoare
-* First rust compiler was written in OCaml
+* First Rust compiler was written in OCaml
 * Rust is self hosted since 2011
 * Rust 1.0 was released on 15th of May 2015
 

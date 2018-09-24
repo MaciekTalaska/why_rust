@@ -108,13 +108,16 @@ Note:
 - complicated
 - metaprogramming
 - preprocessor
-- many keywords: 60+ (and new are added)
+- many keywords: 60+ (and new are added: ~90 now)
 - keyword may have different meaning
 - inconsistent standard library
 - bad design decisions in the past (multi-inheritance)
 - compilers are not compatbile
 - slow development of C++
 - long time for standard to be adopted
+
+Note:
+* different meanings: static (linkage, shortage etc.)
 ====
 
 
@@ -166,12 +169,11 @@ Note:
 * Gc and overhead
 * huge popularity, high adoption
 * very good support (libraries)
-
-Note:
-* VM optimizations: Graal VM + Truffle
-* VM is capable of optimizing code for future processors (with updates)
-* Rust may need to be decompiled
-* new CPU features will require changes to the compiler (and recompiling sources)
+* VM advantages:
+ * GraalVM + Truffle
+ * VM optimizations for future processors
+ * new CPU feature = change Rust compiler, recompile Rust code
+ * VM optimizes for different CPUs
 ====
 
 
@@ -181,6 +183,13 @@ Note:
 * perception
 * no killer feature
 * clear development path
+
+Note:
+* D seem to be "just better C++"
+* it is hard to predict right now what are future plans for D
+* D was shortly used at Facebook
+* D standard library v1 was abandoned
+* D should be compared to C++ than Rust 
 ====
 
 
@@ -194,5 +203,5 @@ Note:
 Note:
 1. Nim = "Python with GC and compiling to native code/c/c++/js"
 2. Julia: gc, dynamic - for numerical analysis, computational science
-3. Crystal: "native ruby" 
+3. Crystal: "native ruby", no parallelism (but has green threads); Problems on Windows
 4. Swift: inspired by C#, replacement for ObjectiveC, mostly for mobile development, not a system language (

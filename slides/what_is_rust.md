@@ -10,7 +10,6 @@
 * syntax inspired by C/C++
 * rustc uses LLVM as a backend
 * macros
-
 ====
 
 ### What is system language?
@@ -19,11 +18,6 @@
 * used to build building blocks for others
 * efficiency/little overhead
 * inlining assembly
-
-
-Note:
-* operates on low level
-* designed to build services for higher abstraction layers
 * good for creating drivers, parts of OS
 ====
 
@@ -32,6 +26,10 @@ Note:
 
 * Redox (https://www.redox-os.org/)
 * intermezzOS (https://intermezzos.github.io/)
+
+Note:
+* Redox = Unix like OS
+* intermezzOS = OS creating for learning purposes (book on OS develpment is available)
 ====
 
 
@@ -42,13 +40,13 @@ Note:
  - Tier 2.5
  - Tier 3
 
-more info: https://forge.rust-lang.org/platform-support.html
+<small>(source: https://forge.rust-lang.org/platform-support.html)</small>
 
 Note:
-t1: official build, automatic tests, documentation on how to build/use
-t2: official build, automatic build (but may lack tests), features include because it builds, not because tests passed (as for t1)
-t2.5: build not avail. via rustup, rest same as for t2
-t3: supported, but are not built/tested automatically. May not work. No official builds.
+* t1: official build, automatic tests, documentation on how to build/use
+* t2: official build, automatic build (but may lack tests), features include because it builds, not because tests passed (as for t1)
+* t2.5: build not avail. via rustup, rest same as for t2
+* t3: supported, but are not built/tested automatically. May not work. No official builds.
 ====
 
 

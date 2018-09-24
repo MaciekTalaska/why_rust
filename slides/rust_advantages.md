@@ -29,6 +29,8 @@
 
 Note:
 * calc in the web browser = not only blockchain mining :)
+* games in the browser?
+* it may become better NaCl
 ====
 
 

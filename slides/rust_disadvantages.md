@@ -52,10 +52,20 @@ Note:
 ====
 
 
-### Rust is not the greatest language of all times!
+### There is no perfect/ideal language!
 
 * it is interesting, but:
  * it was inspired by many other languages
  * there were some languages trying to solve the problem in the past
  * fp addresses concurrency
 * **do not** be a Rust fanatic!
+====
+
+### Take-away:
+
+* multithreading
+* memory-safety (data-races)
+* wide platform support
+* raw performance
+* great tooling, great documentation, great support
+* FUN!

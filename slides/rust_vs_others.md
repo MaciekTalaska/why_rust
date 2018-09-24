@@ -4,6 +4,8 @@
 ### Popularity of C++, C, Go, Rust 
 
 ![C++, C, Go, Rust](slides/c_cpp_go_rust_popularity.png)
+
+(source: Google trends)
 ====
 
 
@@ -11,6 +13,7 @@
 
 ![Go, Rust popularity](slides/go_rust_popularity.png)
 
+(source: Google trends)
 ====
 
 
@@ -80,6 +83,7 @@ Go: 2009; Rust: 2015
 |   | GO | Rust|
 | --- | --- | --- |
 | vm | no(?) | no |
+| gc | yes | no |
 | type classes/generics | no/yes | yes|
 <br>
 * Golang copes well with huge heaps
@@ -87,8 +91,9 @@ Go: 2009; Rust: 2015
 * different niches
 
 Note:
-Go is easier to understand for new programmers
+* Go is easier to understand for new programmers
 (even if they don't know Go at all)
+* JVM, gc < 100ms, GO: < 1m (but it is due to GO being so much different than Java)
 ====
 
 

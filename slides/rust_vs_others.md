@@ -93,9 +93,10 @@ Go: 2009; Rust: 2015
 Note:
 * Go is easier to understand for new programmers (even if they don't know Go at all)
 * gc: JVM < 100ms, GO < 1m (but it is due to GO being so much different than Java)
-* Go huge heaps: 18 GB and bigger
+* Go huge heaps: 18 GB and bigger (https://blog.golang.org/ismmkeynote)
 * Go max stack size is 1 GB for 64bit, 250mb for 32bit
 * source for last two: https://go101.org/article/memory-block.html
+* biotech (bioinformatic), 300GB of data, breaking 512GB barieer of memory allocation for go: https://github.com/golang/go/issues/10460
 ====
 
 

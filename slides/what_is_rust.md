@@ -3,6 +3,7 @@
 
 
 ### Rust is:
+
 * system language
 * compiles to native code (no VM)
 * no automatic memory management (gc)
@@ -11,6 +12,7 @@
 * rustc uses LLVM as a backend
 * macros
 ====
+
 
 ### What is system language?
 
@@ -22,7 +24,7 @@
 ====
 
 
-### Rust IS system language:
+### Rust IS system language
 
 * Redox (https://www.redox-os.org/)
 * intermezzOS (https://intermezzos.github.io/)
@@ -33,12 +35,27 @@ Note:
 ====
 
 
+### Rust concurrency
+
+* threads
+* message passing
+* shared state concurrency
+* extensible concurrency
+* more: http://www.yetanother.site/rust-cookbook/concurrency.html
+* async?: tokyo! (https://github.com/tokio-rs/tokio)
+* use/search for crates!
+
+Note:
+* extensible concurrency: use Send/Sync traits 
+====
+
+
 ### Wide platform support
 
- - Tier 1 
- - Tier 2
- - Tier 2.5
- - Tier 3
+* Tier 1
+* Tier 2
+* Tier 2.5
+* Tier 3
 
 <small>(source: https://forge.rust-lang.org/platform-support.html)</small>
 

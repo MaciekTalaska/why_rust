@@ -91,15 +91,21 @@ Go: 2009; Rust: 2015
 * different niches
 
 Note:
-* Go is easier to understand for new programmers
-(even if they don't know Go at all)
-* JVM, gc < 100ms, GO: < 1m (but it is due to GO being so much different than Java)
+* Go is easier to understand for new programmers (even if they don't know Go at all)
+* gc: JVM < 100ms, GO < 1m (but it is due to GO being so much different than Java)
+* Go huge heaps: 18 GB and bigger
+* Go max stack size is 1 GB for 64bit, 250mb for 32bit
+* source for last two: https://go101.org/article/memory-block.html
 ====
 
 
 ### Rust vs Go: Concurrency is not parallelism
 
 [![Concurrency is not parallelism](https://i.vimeocdn.com/video/343013570.jpg)](https://vimeo.com/49718712)
+
+Note:
+* Rust book simplifies, and assumes that concurrency=parallelism
+* more info: http://tutorials.jenkov.com/java-concurrency/concurrency-vs-parallelism.html
 ====
 
 

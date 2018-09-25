@@ -80,7 +80,7 @@ Go: 2009; Rust: 2015
 
 ### Rust vs Go. Differences:
 
-|   | GO | Rust|
+|   | Go | Rust|
 | --- | --- | --- |
 | vm | no(?) | no |
 | gc | yes | no |

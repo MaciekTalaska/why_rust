@@ -159,6 +159,8 @@ Note:
 
 Note:
 * "impossible not to mutate" - sometimes this is how API works (rand)
+* "functional": (Graydon): "Tail calls "play badly" with deterministic destruction. Including deterministic drop of ~ boxes. Not to say that they're not composable, but the options for composing them are UI-awkward, performance-penalizing, semantics-complicating or all of the above."
+* https://github.com/rust-lang/rfcs/issues/271 - TCO is postponed, but "become" keyword has already been reserved for it
 ====
 
 

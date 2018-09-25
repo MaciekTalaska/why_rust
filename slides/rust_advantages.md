@@ -6,7 +6,7 @@
 
 * in pair with C
 * in pair with C++
-* faster then Go
+* faster than Go
 * faster than Java
 
 <small>(source: https://benchmarksgame-team.pages.debian.net/benchmarksgame)</small>

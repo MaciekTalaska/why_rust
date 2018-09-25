@@ -106,6 +106,9 @@ Note:
 Note:
 * Rust book simplifies, and assumes that concurrency=parallelism
 * more info: http://tutorials.jenkov.com/java-concurrency/concurrency-vs-parallelism.html
+* after (https://www.quora.com/What-is-the-difference-between-concurrency-and-parallelism/answer/Humoyun-Ahmedov): 
+  * concurrency = be in progress simulatenously. it is design property!
+  * parallelism = execute simulatenously. it is run-time property!
 ====
 
 

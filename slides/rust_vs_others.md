@@ -82,13 +82,14 @@ Go: 2009; Rust: 2015
 
 |   | Go | Rust|
 | --- | --- | --- |
-| vm | no(?) | no |
+| vm | no | no |
 | gc | yes | no |
 | type classes/generics | no/yes | yes|
+
 <br>
-* Golang copes well with huge heaps
+* Go copes well with huge heaps
 * Rust code is harder to read
-* different niches
+* different niches (Go focues on: network, infrastructure etc.: Kubernetes, Docker, InfluxDB)
 
 Note:
 * Go is easier to understand for new programmers (even if they don't know Go at all)
@@ -139,6 +140,7 @@ Note:
 - lots of libraries, tools
 - huge pool of candidates / huge market
 - defacto standard in some areas (gamedev, embedded, ML)
+- many more platforms/architectures supported today (gcc: 50+)
 ====
 
 

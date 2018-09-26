@@ -84,7 +84,7 @@ Note:
 ### Interesting projects in Rust
 
 * Mozilla: Servo & Quantum
-* Xi editor (
+* Xi editor (https://github.com/xi-editor/xi-editor)
 * Piston (game engine)
 * Rustation (Playstation emulator)
 * gtk-rs, qt bindings for Rust
